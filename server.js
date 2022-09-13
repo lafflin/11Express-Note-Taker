@@ -1,8 +1,10 @@
 /*
- *add routes
-    POST /api/notes = post notes via postman
- *possibly some front end functionality once the backend stuff is done
- *LAST- deploy to heroku
+click on existing notes to see details
+click on + to make new note
+use uuids
+deploy to heroku
+readme
+comments
  */
 
 const express = require("express");
@@ -10,9 +12,6 @@ const fs = require("fs");
 const path = require("path");
 const uuid = require("uuid");
 const routes = require("./routes");
-
-const notes = require("./db/db.json");
-let notesArr = [];
 
 const app = express();
 

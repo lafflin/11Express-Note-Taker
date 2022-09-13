@@ -9,7 +9,7 @@ router.use("/notes", notes);
 const path = require("path");
 
 router.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, "../../publicindex.html"));
+	res.sendFile(path.join(__dirname, "../../public/index.html"));
 });
 
 module.exports = router;

@@ -3,8 +3,8 @@ click on existing notes to see details
 click on + to make new note
 use uuids
 deploy to heroku
-readme
-comments
+finish readme
+finish comments
  */
 
 const express = require("express");
@@ -17,6 +17,7 @@ const app = express();
 
 const PORT = 3001;
 
+// middleware
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

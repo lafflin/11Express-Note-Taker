@@ -54,7 +54,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ### Links
 
 - Solution URL: [Solution](https://github.com/lafflin/11Express-Note-Taker)
-- Live Site: [Note Taker](https://github.com/lafflin/11Express-Note-Taker)
+- Live Site: [Note Taker](https://lafflin.github.io/11Express-Note-Taker/)
   ​
 
 ## My process

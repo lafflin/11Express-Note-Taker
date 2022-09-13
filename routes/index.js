@@ -6,4 +6,10 @@ const notes = require("./notes");
 router.use("/api", apiRoutes);
 router.use("/notes", notes);
 
+const path = require("path");
+
+router.get("/", (req, res) => {
+	res.sendFile(path.join(__dirname, "../../publicindex.html"));
+});
+
 module.exports = router;

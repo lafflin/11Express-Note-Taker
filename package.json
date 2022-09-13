@@ -11,6 +11,10 @@
   "dependencies": {
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }

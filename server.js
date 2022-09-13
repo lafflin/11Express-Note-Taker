@@ -1,7 +1,7 @@
 /*
 click on existing notes to see details
 click on + to make new note
-use uuids
+do id's via createNote()
 deploy to heroku
 finish readme
 finish comments

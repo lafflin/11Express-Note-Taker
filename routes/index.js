@@ -9,8 +9,8 @@ router.use("/notes", notes);
 const path = require("path");
 
 // send the user to the index.html when at '/'
-router.get("/", (req, res) => {
-	res.sendFile(path.join(__dirname, "../../public/index.html"));
-});
+// router.get("/", (req, res) => {
+// 	res.sendFile(path.join(__dirname, "../../public/index.html"));
+// });
 
 module.exports = router;

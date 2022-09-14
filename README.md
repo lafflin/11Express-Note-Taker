@@ -6,7 +6,7 @@
   - [The challenge](#the-challenge)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
-  - [Screenshot](#Screenshot)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -54,7 +54,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ### Screenshot
 
-- [The finished webpage](./public/assets/img/Screenshot.png)
+![Screenshot of the finished webpage](./public/assets/img/Screenshot.png)
 
 ### Links
 

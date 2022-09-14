@@ -1,16 +1,4 @@
-/*
-click on existing notes to see details
-click on + to make new note
-do id's via createNote()
-deploy to heroku
-finish readme
-finish comments
- */
-
 const express = require("express");
-const fs = require("fs");
-const path = require("path");
-const uuid = require("uuid");
 const routes = require("./routes");
 
 const app = express();

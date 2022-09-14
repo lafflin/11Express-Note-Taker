@@ -6,6 +6,7 @@
   - [The challenge](#the-challenge)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
+  - [Screenshot](#Screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -51,17 +52,23 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
+### Screenshot
+
+- [The finished webpage](./public/assets/img/Screenshot.png)
+
 ### Links
 
 - Solution URL: [Solution](https://github.com/lafflin/11Express-Note-Taker)
-- Live Site: [Note Taker](https://lafflin.github.io/11Express-Note-Taker/)
+- Live Site: [Heroku](https://express-note-taker-hw11.herokuapp.com/)
   ​
 
 ## My process
 
 1. At first I wrote out psuedo code to break the assignment down.
 2. After this I installed the necessary packages, and made the server.js file and got it working.
-3. I followed this by getting the routes working, working through the GET's first, then the POST one.
+3. I followed this by getting the routes working, getting through the GET's first and the POST last.
+4. I then got UUID set up to use for the id's, then deployed to Heroku.
+5. I finished by finishing the README and adding some comments
 
 ### Built with
 
@@ -78,7 +85,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ### Useful resources
 
-- Google, there was a lot of useful information about how to do things online when I got stuck.
+- Google, there was a lot of useful information about how to do the routing and other stuff when I was having issues.
 
 ## Author
 

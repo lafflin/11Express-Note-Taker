@@ -3,7 +3,7 @@ const routes = require("./routes");
 
 const app = express();
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // middleware
 app.use(express.static("public"));
@@ -12,4 +12,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-app.listen(PORT, () => console.log("app online"));
+app.listen(PORT, () => console.log(`app online at ${PORT}`));
